@@ -1,0 +1,23 @@
+{
+  "name": "passai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch --experimental-strip-types index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.5"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^1.1.16",
+    "@formkit/tempo": "^0.1.2",
+    "ai": "^4.1.45",
+    "node-notifier": "^10.0.1"
+  }
+}
